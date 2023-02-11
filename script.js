@@ -34,7 +34,8 @@ async function getData(data) {
       }
       contents.reverse();
 
-      startLooping();
+      // startLooping();
+      runWorld(contents);
     });
 }
 
