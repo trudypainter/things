@@ -16,7 +16,7 @@ canvas {
   height: 100vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   #arenaImg {
     width: 80vw;
     height: 80vw;
@@ -25,6 +25,7 @@ canvas {
     /* background-color: red;
     color: blue; */
     font-size: 1.2rem;
+    color: blue;
   }
 }
 

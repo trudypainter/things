@@ -50,7 +50,7 @@ async function runWorld(contents) {
   let floorY = HEIGHT - 100;
   console.log(HEIGHT / WIDTH);
   if (HEIGHT / WIDTH > 1.8) {
-    floorY = HEIGHT - 500;
+    floorY = HEIGHT - 800;
     console.log(floorY);
   }
   Composite.add(world, [
