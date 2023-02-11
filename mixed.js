@@ -47,8 +47,14 @@ async function runWorld(contents) {
   Runner.run(runner, engine);
 
   // floor
+  let floorY = HEIGHT - 100;
+  console.log(HEIGHT / WIDTH);
+  if (HEIGHT / WIDTH > 1.8) {
+    floorY = HEIGHT - 500;
+    console.log(floorY);
+  }
   Composite.add(world, [
-    Bodies.rectangle(WIDTH / 2, HEIGHT - 100, WIDTH * 0.7, 20, {
+    Bodies.rectangle(WIDTH / 2, floorY, WIDTH * 0.7, 20, {
       isStatic: true,
       render: {
         fillStyle: "gray",
